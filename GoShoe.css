@@ -1,0 +1,160 @@
+nav{
+    background-color: white;
+    height: 50px;
+}
+
+#navBar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.items{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#Dcontainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Dwrapper-right{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    align-items: center;
+
+    text-align: center;
+    width: auto;
+    height: 500px;
+
+}
+
+.Dwrapper-left{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+    margin-right: auto;
+    text-align: center;
+    width: 250px;
+    height: 500px;
+}
+
+.Dwrapper-left div{
+    width: 250px;
+    margin:5px;
+
+}
+
+.notifyMe{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    margin: 5px;
+    width: 141px;
+    position: relative;
+    display: inline-block
+    
+}
+
+a {
+    text-decoration: none;
+    
+}
+a:hover{
+    opacity: 0.7;
+}
+
+
+
+#Fcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Shoe{
+    height:500px;
+}
+
+.Chat{
+    width: 50px;
+    position: relative;
+    bottom: 150px;
+    left: 180px;
+    animation: Move 1.5s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes Move{
+    0% {width: 50px}
+    25% {width: 50.3px}
+    50% {width: 50.6px}
+    75% {width: 50.9px}
+    100% {width: 51px}
+}
+b{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    
+}
+
+/* IPAD/TABLET MEDIA QUERIES */
+/* @media (max-width: 992px){
+    img{
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media (max-width: 992px){
+    .Dwrapper-left{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 992px){
+    .Dwrapper-right{
+        margin-top: 50px;
+    }
+} */
+
+/* MOBILE PHONE MEDIA QUERIES */
+
+/* /* @media (max-width: 600px) {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  } */
+  
+@media (max-width: 600px) {
+    .Dcontainer{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+
+    }
+    .Dwrapper-left{
+        
+    }
+    .Dwrapper-right{
+        display: none;
+    }
+    
+    .Fcontainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    
+}
+  } 
